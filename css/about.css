@@ -1,0 +1,15 @@
+* {
+    background-color:rgb(245, 240, 205);    
+    font-family: "Times New Roman";
+
+}
+
+h1{
+    color: rgb(6, 6, 9);
+    text-transform:uppercase;
+    text-align: center;
+}
+
+.menu{
+    text-align: right;
+}

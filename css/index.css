@@ -1,0 +1,60 @@
+* {
+    background-color:rgb(245, 240, 205);
+    font-family: "Times New Roman";
+}
+
+
+h4, h1{
+    color: rgb(6, 6, 9);
+    text-transform:uppercase;
+    text-align: center;
+    
+}
+
+marquee{
+    text-decoration: none;
+    color: black;
+}
+
+p{
+    color: #002244;
+    text-align: center;
+}
+
+img{
+    border: solid;
+    border-color: black 5px;
+    display: block;
+    margin: auto;
+}
+.png{
+    border: solid;
+    border-color: black;
+    text-align: center;
+  
+}
+
+.menu{
+    text-align: right;
+}
+
+/* list tag center start css */
+
+.list{
+    text-align: center;
+}
+
+ul.listul{
+    display: inline-block;
+    text-align: left;
+
+}
+
+/* list tag center end css */
+
+
+footer{
+    text-align: center;
+    background-color: 	#556B2F;
+    margin-top: 30px;
+}
