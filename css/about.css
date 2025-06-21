@@ -3,6 +3,12 @@
     font-family: "Times New Roman";
 
 }
+.footer{
+    text-align: center;
+    background-color: 	#556B2F;
+    margin-top: 30px;
+    bottom: 0%;
+}
 
 h1{
     color: rgb(6, 6, 9);
@@ -12,4 +18,11 @@ h1{
 
 .menu{
     text-align: right;
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    color: #556B2F;
 }

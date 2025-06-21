@@ -13,3 +13,22 @@ h1, h2{
 .menu{
     text-align: right;
 }
+
+div{
+  max-width: 500px;
+  height: 100px;
+  background-color: powderblue;
+}
+
+.photo{
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 5px;
+  height: 265px;
+}
+
+/* .footer{
+    text-align: center;
+    background-color: 	#556B2F;
+    bottom: 0%;
+} */
