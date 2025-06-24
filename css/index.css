@@ -3,6 +3,27 @@
     font-family: "Times New Roman";
 }
 
+.class{
+    list-style-type: none;
+    font-size: 30px;
+    margin: 10px;
+    padding: 0;
+    overflow: hidden;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: right;
+}
+
+.fix{
+    position:sticky;
+    top: 0px;
+}
 
 h4, h1{
     color: rgb(6, 6, 9);
@@ -31,6 +52,7 @@ img{
     border: solid;
     border-color: black;
     text-align: center;
+    box-shadow: 5px 5px 10px gray;
   
 }
 

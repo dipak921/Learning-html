@@ -10,6 +10,27 @@ h1{
     text-align: center;
 }
 
+.class{
+    list-style-type: none;
+    font-size: 30px;
+    margin: 10px;
+    padding: 0;
+    overflow: hidden;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: right;
+}
+
+.fix{
+    position:sticky;
+    top: 0px;
+}
 .menu{
     text-align: right;
 }
@@ -38,7 +59,7 @@ h5{
 }
 
 .maps{
-   display: flex;
+    display: flex;
     justify-content: center;
 }
 
@@ -46,4 +67,7 @@ footer{
     text-align: center;
     background-color: 	#556B2F;
     margin-top: 30px;
+    position: fixed;
+    width: 100%;
+    bottom: 20px;
 }
